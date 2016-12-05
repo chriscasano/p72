@@ -31,7 +31,7 @@ COUNT                           INT
 )
 PARTITIONED BY (TRADEDATE DATE)
 STORED AS ORC
-LOCATION '/user/ec2-user/point72/data/trades2_orc'
+LOCATION '/user/ec2-user/data/trades2_orc'
 TBLPROPERTIES ("orc.compress"="SNAPPY")
 ;
 
